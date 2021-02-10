@@ -24,6 +24,10 @@ body {
   margin-left: 175px;
 }
 
+#teamCards{
+  height: 375px;
+}
+
 #involvedNav{
   display: none;
   color: RED;
@@ -1090,11 +1094,6 @@ hr{
 
 #memberImg{
   margin-bottom: 40px;
-}
-
-
-#teamCards{
-  height: 375px;
 }
 
 /* line 58, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_header.scss */
