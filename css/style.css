@@ -38,6 +38,10 @@ body {
     display: inline;
   }
 
+  #teamCards{
+    height: 375px;
+  }
+
   ..slicknav_nav ul{
     margin-top: 60px;
   }
