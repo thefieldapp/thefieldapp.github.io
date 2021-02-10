@@ -49,6 +49,8 @@ body {
   margin-left: -120px;
 }
 
+
+
 @media (max-width: 800px) {
   #divMargin{
     margin: auto;
@@ -473,6 +475,12 @@ h3 {
   /* line 297, ../../Arafath/CL/CL October/219. SEO/HTML/scss/theme-default.scss */
   .mb-95 {
     margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-area .main-header-area .Appointment .book_btn a{
+    margin-left: 20px;
   }
 }
 
