@@ -1094,7 +1094,7 @@ hr{
 
 
 #teamCards{
-  height: 600px;
+  height: 375px;
 }
 
 /* line 58, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_header.scss */
@@ -1106,10 +1106,6 @@ hr{
   /* line 58, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
-  }
-
-  #teamCards{
-    height: 700px;
   }
 }
 
