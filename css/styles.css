@@ -104,6 +104,41 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#infoSection{
+  height: 500px;
+  background-color: #1BD760;
+  border-radius: 25px;
+}
+
+#textSection{
+  padding: 100px;
+  color: black;
+}
+
+#imageSection{
+  height: 500px;
+  background-color: rgb(39, 39, 39);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#heroImage{
+  margin-top: -60px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 1026px) {
+  #heroImage {
+      margin-top: 150px;
+      margin-left: auto;
+      height: 500px;
+  }
+
+  #logoImage{
+    height: 35px;
+  }
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -885,7 +920,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
+  --bs-gutter-x: 1rem;
 }
 
 .g-5,
@@ -7648,7 +7683,9 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
+  color: #98999a;
   margin-bottom: 0 !important;
+  padding: 20px 80px 0px 80px;
 }
 
 .mb-1 {
