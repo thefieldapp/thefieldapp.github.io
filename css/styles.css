@@ -79,6 +79,62 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+@media  (max-width: 450px) {
+  #FirstDivComp{
+    display: none;
+  }
+
+  #bottomIMG{
+    display: none;
+  }
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box{
+  padding: 15px;
+  border-radius: 100px;
+  background: #ececec;
+}
+
+.form-box input {
+  font-size: 18px;
+  color:#000;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+}
+
+.form-box button{
+  color: #FFF;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 100px;
+  background: #000;
+  cursor: pointer;
+  transition: .3s;
+
+}
+
+@media (min-width: 450px) {
+  #HideMOB{
+    display: none;
+  }
+
+  #bottomImgMob{
+    display: none;
+  }
+}
+
+
+
+
 *,
 *::before,
 *::after {
@@ -120,6 +176,13 @@ body {
   background-color: rgb(39, 39, 39);
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+#imageSection2{
+  height: 500px;
+  background-color: rgb(39, 39, 39);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 #heroImage{
@@ -7790,8 +7853,15 @@ textarea.form-control-lg {
 }
 
 .px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+  padding-right: 0rem !important;
+  padding-left: 4rem !important;
+}
+
+@media (max-width: 450px){
+  .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
 }
 
 .py-0 {
@@ -8164,7 +8234,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #1BD760 !important;
 }
 
 .bg-secondary {
@@ -8205,6 +8275,16 @@ textarea.form-control-lg {
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-green{
+  background-color: #1BD760;
+  margin: 5%;
+}
+
+#textBox{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .bg-white {
