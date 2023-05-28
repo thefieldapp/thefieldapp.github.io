@@ -96,7 +96,7 @@
 }
 
 .form-box{
-  padding: 15px;
+  padding: 5px;
   border-radius: 100px;
   background: #ececec;
 }
@@ -104,7 +104,7 @@
 .form-box input {
   font-size: 18px;
   color:#000;
-  padding: 15px 10px;
+  padding: 5px 10px;
   border: none;
   outline: none;
   background: #ececec;
