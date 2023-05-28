@@ -11195,9 +11195,16 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   background-color: black;
-  padding-top: 5rem;
+  padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
+
+@media (max-width: 450px) {
+  .masthead{
+    padding-top: 5rem;
+  }
+}
+
 .masthead .masthead-device-mockup {
   display: flex;
   align-items: center;
